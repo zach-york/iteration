@@ -16,6 +16,9 @@ def iterate(list):
 	for item in list:
 		print item
 
+def print_list(list):
+	print ""
+
 def add_one(list):
 	# standard for loop with range
 	for i in range(0, len(list)):
@@ -39,9 +42,16 @@ def congratulations(names, scores):
 # accumulation pattern - a type of iteration
 # keep track of other data as we go
 
-def sum(list):
+def sum(numbers):
 	total = 0
 	for n in numbers:
 		total += n
 
 	return total
+
+def max(numbers):
+	current_max = numbers[0]
+	for n in numbers:
+		if n > current_max:
+			current_max = n
+	return current_max
