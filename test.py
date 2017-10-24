@@ -9,3 +9,5 @@ names = ["Amy", "Bill", "Carol", "Dave", "Emily"]
 iterate(names)
 
 print_scores(names, scores)
+
+congratulations(names, scores)
