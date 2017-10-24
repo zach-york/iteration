@@ -1,11 +1,7 @@
 # Make a local change
 # Make another local change
 # Make a change from home
-<<<<<<< HEAD
-# This is change [B] at school
-=======
 # This is change [A] from home
->>>>>>> 5e4aa6da77fea497190309f4bd93673c4b7da125
 
 # iteration pattern
 
