@@ -21,5 +21,7 @@ scores = [1, 3, 4, 2, 4]
 print sum(scores)
 
 print max(scores)
+
+print average(scores)
 #sum = sum(numbers)
 # print sum
