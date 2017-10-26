@@ -55,3 +55,12 @@ def max(numbers):
 		if n > current_max:
 			current_max = n
 	return current_max
+def average(numbers):
+	length = len(numbers)
+
+	added = sum(numbers)
+	added / length
+	return average(numbers)
+
+def average_remove_2(numbers):
+	length = len(numbers)
